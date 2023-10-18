@@ -1,0 +1,41 @@
+.header-card-main{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+}
+
+.header-card-icon{
+    margin-left: 3px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid rgb(179, 174, 174);
+}
+
+.length{
+    color: rgb(179, 174, 174);
+}
+
+.first-content{
+    display: flex;
+    align-items: center;
+}
+
+.second-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-card-text{
+    margin: 0 4px;
+}
+
+.dots{
+    margin-left: 10px;
+}
+
+.plus{
+    font-size: 15px;
+}

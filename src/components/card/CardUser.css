@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: auto;
+    border: 1px solid rgba(0, 0, 0, 0.119);
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 1px 5px 5px 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.icon-dash {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    margin: 5px;
+    border-radius: 20%;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    color: #778282;
+
+}
+
+.header-card-icon2{
+    margin-right: 4px;
+    margin-bottom: 1px;
+    padding: 3px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 190, 190);
+}
+
+.featReq {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: #778282;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px 0 -3px;
+    border-radius: 50%;
+    background-color: #b7c4c4;
+}
+
+.top {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: rgb(87, 90, 87);
+}
+
+.img-container {
+    position: relative;
+}
+
+.status {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: white 2px solid;
+    padding: 1px;
+}
+
+.middle {
+    display: flex;
+    font-size: 10px;
+    text-align: left;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: 7px;
+
+}
+
+.img-cont {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImg {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}

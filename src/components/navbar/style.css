@@ -1,0 +1,66 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.main-display {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  font-size: 14px;
+  gap: 10px;
+  margin-left: 18px;
+  border: 1px solid #ccc;
+  background-color: #f8f8fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  z-index: 10;
+  background-color: #f8f8fa;
+
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  left: 17px;
+  top: 50px;
+}
+
+.category {
+  color: #9b9b9c;
+
+}
+
+.element {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.option {
+  background-color: white;
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  border: 1px #ccc solid;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.select {
+  background-color: white;
+  width: 110px;
+  font-size: 15px;
+  padding: 3px 0px;
+  border-radius: 5px;
+}
