@@ -33,8 +33,10 @@ const Navbar = ( {setGroup, setOrder} ) => {
                 <div className="display" onClick={handleMenu}>
                     <div className="main-display">
                         <FontAwesomeIcon icon={faSliders} style={{ color: "#363a3f" }} />
+
                         <div className="text">Display</div>
                         <FontAwesomeIcon icon={faChevronDown} style={{ color: "#6a717c" }} />
+
                     </div>
                 </div>
             </div>
